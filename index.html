@@ -126,7 +126,7 @@
                         <div class="product-upper">
                             <img src="img/02_extracto_de_algarrobina.png" alt="">
                         </div>
-                        <h2><a href="">02 extracto de Algarrobina</a></h2>
+                        <h2><a href="">02 Extracto de Algarrobina</a></h2>
                         <div class="product-carousel-price">
                             <ins>S/. 16.00</ins> <del>S/. 20.00</del>
                         </div>  

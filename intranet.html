@@ -78,7 +78,7 @@
                             <a href="index.html">Tienda <i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
                         <li><a href="nosotros.html">Nosotros</a></li>
                         <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="intranet.html">Intranet</a></li>                   
+                        <li><a href="intranet.html">Intranet</a></li>
                     </ul>
                 </div>  
             </div>
@@ -106,9 +106,33 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="single-shop-product">
                         <div class="product-upper">
-                            <img src="img/nosotros.png" alt="">
+                            <img src="img/logowestres.png" alt="">
                         </div>
-                        <h2><a href="">Somos una empresa peruana especializada en ofrecer productos organicos de primera calidad. Llegamos a todo el Perú con seguridad y rapidez.</a></h2>
+                        
+                        <script>
+
+                            function usrpas(){
+                            
+                            if (document.form1.txt.value=="admin" && document.form1.num.value=="1234"){window.location="https://docs.google.com/spreadsheets/d/1zRRCFQII8zJ5uTldDyAbDe3fMB-w_-j7silZtYZH2Q4/edit?usp=sharing"}
+                            
+                            else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+                            
+                            }
+                            
+                            document.oncontextmenu=new Function("return false");
+                            
+                            </script>
+                            
+                            <form name="form1">
+                            
+                            <input type="text" name="txt"> Usuario (admin)<br>
+                            
+                            <input type="text" name="num"> Contraseña (1234)<br>
+                            
+                            <input type="button" value="ir a.." onclick="usrpas()">
+                            
+                            </form>
+
                     </div>
                 </div>
    
